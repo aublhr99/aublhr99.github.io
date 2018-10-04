@@ -2,11 +2,11 @@ body {
     background-color: black;
 }
 
-#name {
+.name {
     font-size: 3.5em;
 
 }
 
-#main-body {
+.main-body {
     color: gold;
 }
