@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-family: sans-serif;
 }
 
 .name {
@@ -8,5 +9,5 @@ body {
 }
 
 .main-body {
-    color: gold;
+    color: #ad940f;
 }
