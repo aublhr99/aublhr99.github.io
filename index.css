@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #000000;
     font-family: "Lucida Console", monaco, monospace;
 }
 
@@ -9,5 +9,17 @@ body {
 }
 
 .main-body {
-    color: #ad940f;
+    color: #fff000;
+    text-align: center;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    width:30em;
+    height:18em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+}
+
+#particles-js {
+    height: 100%;
 }
