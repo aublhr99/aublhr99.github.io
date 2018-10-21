@@ -5,7 +5,11 @@ body {
 
 .name {
     font-size: 3.5em;
+    font-weight: bold;
+}
 
+#tagline {
+    font-style: italic;
 }
 
 .main-body {
@@ -18,6 +22,24 @@ body {
     height:18em;
     margin-top: -9em; /*set to a negative number 1/2 of your height*/
     margin-left: -15em; /*set to a negative number 1/2 of your width*/
+}
+
+.inline-btns {
+
+}
+
+.btn {
+    height: 5em;
+    width: 5em;
+    border: 5px;
+}
+
+.btn-image {
+    border-radius: 50%;
+    height: 5em;
+    width: 5em;
+    -webkit-filter: invert(100%);
+    padding: 2em;
 }
 
 #particles-js {
