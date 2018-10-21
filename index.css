@@ -90,14 +90,6 @@ body {
     }
 }
 
-.name:after {
-    content: "Aubin Lohier";
-}
-
-.name:hover:after {
-    content: "Aubin's GitHub"
-}
-
 #particles-js {
     height: 100vh;
 }
