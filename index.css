@@ -19,14 +19,14 @@ body {
     position:fixed;
     top: 50%;
     left: 50%;
-    width:50em;
+    width:70em;
     height:18em;
     margin-top: -9em; /*set to a negative number 1/2 of your height*/
-    margin-left: -25em; /*set to a negative number 1/2 of your width*/
+    margin-left: -35em; /*set to a negative number 1/2 of your width*/
 }
 
 .inline-btns {
-    width: 40em;
+    width: 60em;
     display: inline-block;
     padding: 2em;
     top: 0;
@@ -48,8 +48,36 @@ body {
     width: 5em;
     -webkit-filter: invert(100%);
     padding: 0;
-    border: 3px solid #ffffff;
+    border: 3px solid #000000;
     padding: 0.25em;
+}
+
+.btn-image:hover {
+    animation-name: hoverBoi;
+    animation-duration: 0.3s;
+
+    height: 6.5em;
+    width: 6.5em;
+}
+
+@keyframes hoverBoi {
+    from {
+    height: 5em;
+    width: 5em;
+    }
+
+    to {
+    height: 6.5em;
+    width: 6.5em;
+    }
+
+}
+
+.LinkedIn {
+    height: 4em;
+    width: 4em;
+    padding: 0.75em;
+    border-radius: 50%;
 }
 
 #particles-js {
