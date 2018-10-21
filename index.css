@@ -50,6 +50,8 @@ body {
     padding: 0;
     border: 3px solid #000000;
     padding: 0.25em;
+    animation-name: deHoverBoi;
+    animation-duration: 0.3s;
 }
 
 .btn-image:hover {
@@ -73,11 +75,16 @@ body {
 
 }
 
-.LinkedIn {
-    height: 4em;
-    width: 4em;
-    padding: 0.75em;
-    border-radius: 50%;
+@keyframes deHoverBoi {
+    from {
+    height: 6.5em;
+    width: 6.5em;
+    }
+
+    to {
+    height: 5em;
+    width: 5em;
+    }
 }
 
 #particles-js {
