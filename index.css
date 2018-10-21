@@ -58,7 +58,7 @@ body {
 .btn-image:hover {
     animation-name: hoverBoi;
     animation-duration: 0.3s;
-    -webkit-filter: invert(100%) sepia(100%) saturate(10000%); 
+    -webkit-filter: invert(100%) sepia(100%) saturate(25000%); 
 
     height: 6.5em;
     width: 6.5em;
@@ -73,7 +73,7 @@ body {
     to {
     height: 6.5em;
     width: 6.5em;
-    -webkit-filter: invert(100%) sepia(100%) saturate(10000%); 
+    -webkit-filter: invert(100%) sepia(100%) saturate(25000%); 
     }
 
 }
