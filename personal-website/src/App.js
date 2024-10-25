@@ -21,54 +21,6 @@ function App() {
 
   return (
     <div className="App">
-      <div class="main-body">
-        <h1 class="name">Aubin Lohier</h1>
-        <p id="tagline">"I'm interested in making connections."</p>
-        <p>Ex Meta/Facebook</p>
-        <p>Computer Scientist, Software Engineer, and Web Developer</p>
-        <div class="inline-btns">
-          <span class="btn">
-            <a href="https://www.github.com/aublhr99/">
-              <img
-                class="btn-image"
-                id="GitHub"
-                src="assets/GitHub-Icon.png"
-                alt="GitHub"
-              />
-            </a>
-          </span>
-          <span class="btn">
-            <a href="https://www.linkedin.com/in/aubin-lohier/">
-              <img
-                class="btn-image"
-                id="LinkedIn"
-                src="assets/LinkedIn-Icon.png"
-                alt="LinkedIn"
-              />
-            </a>
-          </span>
-          <span class="btn">
-            <a href="mailto:aublhr99@gmail.com">
-              <img
-                class="btn-image"
-                src="assets/email-icon.png"
-                id="Email"
-                alt="Email"
-              />
-            </a>
-          </span>
-          <span class="btn">
-            <a href="https://aublhr99.github.io/assets/Aubin_Lohier_Resume.pdf">
-              <img
-                class="btn-image"
-                id="Resume"
-                src="assets/Resume-Icon.png"
-                alt="Resume"
-              />
-            </a>
-          </span>
-        </div>
-      </div>
       {init && (
         <Particles
           id="tsparticles"
@@ -80,6 +32,9 @@ function App() {
               },
             },
             fpsLimit: 120,
+            fullScreen: {
+              enable: true,
+            },
             interactivity: {
               events: {
                 onClick: {
@@ -144,6 +99,54 @@ function App() {
           }}
         />
       )}
+      <div className="main-body">
+        <h1 className="name">Aubin Lohier</h1>
+        <p id="tagline">"I'm interested in making connections."</p>
+        <p>Ex Meta/Facebook</p>
+        <p>Computer Scientist, Software Engineer, and Web Developer</p>
+        <div className="inline-btns">
+          <span className="btn">
+            <a href="https://www.github.com/aublhr99/">
+              <img
+                className="btn-image"
+                id="GitHub"
+                src="assets/GitHub-Icon.png"
+                alt="GitHub"
+              />
+            </a>
+          </span>
+          <span className="btn">
+            <a href="https://www.linkedin.com/in/aubin-lohier/">
+              <img
+                className="btn-image"
+                id="LinkedIn"
+                src="assets/LinkedIn-Icon.png"
+                alt="LinkedIn"
+              />
+            </a>
+          </span>
+          <span className="btn">
+            <a href="mailto:aublhr99@gmail.com">
+              <img
+                className="btn-image"
+                src="assets/email-icon.png"
+                id="Email"
+                alt="Email"
+              />
+            </a>
+          </span>
+          <span className="btn">
+            <a href="https://aublhr99.github.io/assets/Aubin_Lohier_Resume.pdf">
+              <img
+                className="btn-image"
+                id="Resume"
+                src="assets/Resume-Icon.png"
+                alt="Resume"
+              />
+            </a>
+          </span>
+        </div>
+      </div>
     </div>
   );
 }
