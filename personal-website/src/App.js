@@ -15,43 +15,17 @@ function App() {
           <p>Computer Scientist, Software Engineer, and Web Developer</p>
           <div className="inline-btns">
             <span className="btn">
-              <a href="https://www.github.com/aublhr99/">
-                <img
-                  className="btn-image"
-                  id="GitHub"
-                  src="assets/GitHub-Icon.png"
-                  alt="GitHub"
-                />
-              </a>
+              <a href="https://www.github.com/aublhr99/">GitHub</a>
             </span>
             <span className="btn">
-              <a href="https://www.linkedin.com/in/aubin-lohier/">
-                <img
-                  className="btn-image"
-                  id="LinkedIn"
-                  src="assets/LinkedIn-Icon.png"
-                  alt="LinkedIn"
-                />
-              </a>
+              <a href="https://www.linkedin.com/in/aubin-lohier/">LinkedIn</a>
             </span>
             <span className="btn">
-              <a href="mailto:aublhr99@gmail.com">
-                <img
-                  className="btn-image"
-                  src="assets/email-icon.png"
-                  id="Email"
-                  alt="Email"
-                />
-              </a>
+              <a href="mailto:aublhr99@gmail.com">Email</a>
             </span>
             <span className="btn">
               <a href="https://aublhr99.github.io/assets/Aubin_Lohier_Resume.pdf">
-                <img
-                  className="btn-image"
-                  id="Resume"
-                  src="assets/Resume-Icon.png"
-                  alt="Resume"
-                />
+                Resume
               </a>
             </span>
           </div>
