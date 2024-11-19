@@ -1,4 +1,5 @@
 import { Card } from "@mui/material";
+import Resume from "./assets/Aubin_Lohier_Resume.pdf";
 
 import "./App.css";
 import ParticlesBackground from "./ParticlesBackground";
@@ -24,7 +25,7 @@ function App() {
               <a href="mailto:aublhr99@gmail.com">Email</a>
             </span>
             <span className="btn">
-              <a href="https://aublhr99.github.io/assets/Aubin_Lohier_Resume.pdf">
+              <a href={Resume} target="_blank" rel="noreferrer">
                 Resume
               </a>
             </span>
