@@ -1,8 +1,7 @@
-import { Card } from "@mui/material";
-import Resume from "./assets/Aubin_Lohier_Resume.pdf";
-
 import "./App.css";
 import ParticlesBackground from "./ParticlesBackground";
+import { Card } from "@mui/material";
+import Resume from "./assets/Aubin_Lohier_Resume.pdf";
 
 function App() {
   return (
