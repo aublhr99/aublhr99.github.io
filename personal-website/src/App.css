@@ -4,45 +4,28 @@
   display: "flex";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
+#profile-pic {
+  border-radius: 50%;
+  border: 10px solid white;
+  height: 350px;
+  width: 350px;
+  opacity: 100%;
 }
 
 .main-body {
-  background-color: black;
-  color: black;
   position: absolute;
-  text-align: center;
-  top: 40%;
+  text-align: start;
   width: 100%;
 }
 
 body {
-  background-color: #000000;
   font-family: "Lucida Console", monaco, monospace;
   overflow: hidden;
+}
+
+.card {
+  border-radius: 0%;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .name {
@@ -56,10 +39,9 @@ body {
 }
 
 .main-body {
-  color: #fff000;
   text-align: center;
   position: fixed;
-  top: 50%;
+  top: 45%;
   left: 50%;
   width: 70em;
   height: 18em;
@@ -68,7 +50,6 @@ body {
 }
 
 .inline-btns {
-  width: 50em;
   display: inline-block;
   padding: 2em;
   top: 0;
@@ -98,48 +79,6 @@ body {
   padding: 0.25em;
   animation-name: deHoverBoi;
   animation-duration: 0.3s;
-}
-
-.btn-image:hover {
-  animation-name: hoverBoi;
-  animation-duration: 0.3s;
-  -webkit-filter: invert(100%) sepia(100%) saturate(25000%);
-  -moz-filter: invert(100%) sepia(100%) saturate(25000%);
-  -ms-filter: invert(100%) sepia(100%) saturate(25000%);
-  -o-filter: invert(100%) sepia(100%) saturate(25000%);
-  filter: invert(100%) sepia(100%) saturate(25000%);
-
-  height: 6.5em;
-  width: 6.5em;
-}
-
-@keyframes hoverBoi {
-  from {
-    height: 5em;
-    width: 5em;
-  }
-
-  to {
-    height: 6.5em;
-    width: 6.5em;
-    -webkit-filter: invert(100%) sepia(100%) saturate(25000%);
-    -moz-filter: invert(100%) sepia(100%) saturate(25000%);
-    -ms-filter: invert(100%) sepia(100%) saturate(25000%);
-    -o-filter: invert(100%) sepia(100%) saturate(25000%);
-    filter: invert(100%) sepia(100%) saturate(25000%);
-  }
-}
-
-@keyframes deHoverBoi {
-  from {
-    height: 6.5em;
-    width: 6.5em;
-  }
-
-  to {
-    height: 5em;
-    width: 5em;
-  }
 }
 
 #particles-js {
