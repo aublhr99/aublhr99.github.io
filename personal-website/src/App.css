@@ -80,7 +80,7 @@ body {
   cursor: pointer;
 }
 
-@media (orientation: portrait) {
+@media (max-width: 900px) {
   .main-body {
     position: absolute;
     top: 30%;
