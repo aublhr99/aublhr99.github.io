@@ -8,14 +8,14 @@ import FrostedGlassButton from "./FrostedGlassButton";
 function App() {
   /*
     TODOs
-    - add flip profile pic for mouse hover
-    - extend for mobile support
+    - add flip profile pic for mouse hover?
     - think interactive resume and portfolio
     - add a currently working on and an experience timeline
     - add animations/personality/whimsy
       - typing animation?
     - add icons to button?
     - font explorations
+    - need header icon
 
     Thoughts
     - should the particles be slower? could be distracting
@@ -49,7 +49,7 @@ function App() {
             link={"https://www.linkedin.com/in/aubin-lohier/"}
           />
           <FrostedGlassButton
-            text={"Github"}
+            text={"GitHub"}
             link={"https://www.github.com/aublhr99"}
           />
           <FrostedGlassButton
