@@ -9,19 +9,19 @@ function App() {
   /*
     TODOs
     - add flip profile pic for mouse hover
-    - frosted glass in-line buttons
-    - entire body to top of page or just center is better
     - extend for mobile support
     - think interactive resume and portfolio
     - add a currently working on and an experience timeline
     - add animations/personality/whimsy
       - typing animation?
     - add icons to button?
+    - font explorations
 
     Thoughts
     - should the particles be slower? could be distracting
     - keep looking through tv thoughts
     - add a currently working on section
+    - custom domain time?
    */
 
   // Can use bento box styling? Check out grid-area
