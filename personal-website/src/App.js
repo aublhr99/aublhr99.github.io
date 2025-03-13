@@ -15,6 +15,7 @@ function App() {
       - typing animation?
     - add icons to button?
     - font explorations
+    - add an articles about me section
 
     Thoughts
     - should the particles be slower? could be distracting
