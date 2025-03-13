@@ -1,84 +1,128 @@
 .App {
-  height: "100%";
-  background: "#222";
-  display: "flex";
+  height: 100%;
+  background: #222;
+  margin-top: 5%;
+  width: clamp(10em, 80%, 70em);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #profile-pic {
   border-radius: 50%;
-  border: 10px solid white;
-  height: 350px;
-  width: 350px;
-  opacity: 100%;
-}
-
-.main-body {
-  position: absolute;
-  text-align: start;
-  width: 100%;
+  max-width: 100%;
+  border: 0.5em solid white;
 }
 
 body {
-  font-family: "Lucida Console", monaco, monospace;
   overflow: hidden;
+  color: white;
 }
 
-.card {
-  border-radius: 0%;
-  color: rgba(255, 255, 255, 0.5);
+.frosted-glass-card {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .name {
-  font-size: 3.5em;
+  font-size: clamp(1em, 8vw, 3.5em);
   font-weight: bold;
   display: block;
+  color: white;
 }
 
 #tagline {
   font-style: italic;
+  color: white;
+}
+
+#intro-card {
+  text-align: start;
+  width: 100%;
 }
 
 .main-body {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: fixed;
-  top: 45%;
-  left: 50%;
-  width: 70em;
-  height: 18em;
-  margin-top: -9em; /*set to a negative number 1/2 of your height*/
-  margin-left: -35em; /*set to a negative number 1/2 of your width*/
+}
+
+@media (max-width: 900px) {
+  .main-body {
+    margin-left: clamp(1.25em, 10%, 8.75em);
+    margin-right: clamp(1.25em, 10%, 8.75em);
+  }
+}
+
+.title-card {
+  display: grid;
+  grid-template-columns: 23% 73%;
+  grid-template-rows: 100%;
+  gap: 4%;
+  align-items: center;
 }
 
 .inline-btns {
-  display: inline-block;
-  padding: 2em;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
+  display: flex;
+  color: white;
+  width: 100%;
+  padding-top: 2%;
+  gap: 2%;
 }
 
 .btn {
-  height: 5em;
-  width: 5em;
-  padding: 1.75em;
+  flex: 1;
+  width: 100%;
+  cursor: pointer;
 }
 
-.btn-image {
-  border-radius: 50%;
-  height: 5em;
-  width: 5em;
-  -webkit-filter: invert(100%);
-  -moz-filter: invert(100%);
-  -ms-filter: invert(100%);
-  -o-filter: invert(100%);
-  filter: invert(100%);
-  padding: 0;
-  border: 3px solid #000000;
-  padding: 0.25em;
-  animation-name: deHoverBoi;
-  animation-duration: 0.3s;
+@media (orientation: portrait) {
+  .main-body {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-top: -30%;
+    margin-left: -50%;
+    padding: 2.5%;
+    width: 95%;
+    height: 100%;
+  }
+
+  #intro-card {
+    width: 100%;
+  }
+
+  #profile-pic {
+    width: 60%;
+    margin-bottom: 5%;
+  }
+
+  .title-card {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1%;
+    align-items: center;
+    width: 100%;
+    gap: 200%;
+  }
+  .inline-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 100%;
+  }
+
+  .btn {
+    padding-top: 1%;
+    width: 100%;
+    cursor: pointer;
+    /* text-decoration: underline; */
+  }
 }
 
 #particles-js {
