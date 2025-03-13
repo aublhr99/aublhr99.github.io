@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.440cdc75.css",
-    "main.js": "/static/js/main.be4eb268.js",
+    "main.css": "/static/css/main.b29f8ff0.css",
+    "main.js": "/static/js/main.3e90aebc.js",
     "static/js/453.253ccfac.chunk.js": "/static/js/453.253ccfac.chunk.js",
     "static/media/Aubin_Lohier_Resume.pdf": "/static/media/Aubin_Lohier_Resume.ae96f4aa8b389c322df5.pdf",
     "static/media/Aubin_Lohier_profile_pic.jpeg": "/static/media/Aubin_Lohier_profile_pic.65785df9d9ff983ef5c7.jpeg",
     "index.html": "/index.html",
-    "main.440cdc75.css.map": "/static/css/main.440cdc75.css.map",
-    "main.be4eb268.js.map": "/static/js/main.be4eb268.js.map",
+    "main.b29f8ff0.css.map": "/static/css/main.b29f8ff0.css.map",
+    "main.3e90aebc.js.map": "/static/js/main.3e90aebc.js.map",
     "453.253ccfac.chunk.js.map": "/static/js/453.253ccfac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.440cdc75.css",
-    "static/js/main.be4eb268.js"
+    "static/css/main.b29f8ff0.css",
+    "static/js/main.3e90aebc.js"
   ]
 }
