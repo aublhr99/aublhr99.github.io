@@ -42,12 +42,14 @@ function App() {
     <div className="App">
       <ParticlesBackground />
       <main className="main-body">
-        <SectionNav />
+          {/* <SectionNav /> */}
         <HeroSection />
+        {/*
         <ProjectsSection featuredProjects={featuredProjects} />
         <ExperienceSection />
         <AboutSection />
         <ContactSection />
+        */}
       </main>
     </div>
   );
